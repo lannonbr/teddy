@@ -12,6 +12,8 @@ node_js:
   - "11"
   - "10"
 script:
+  - echo $CHROME_BIN
+  - echo $FIREFOX_BIN
   - npm run coverage
   - npm run test-chrome
   - npm run test-firefox
